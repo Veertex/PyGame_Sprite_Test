@@ -14,28 +14,28 @@ class animacion_personaje():
         self.sprites_animacion=sprites_animacion
         
 sprites_animacion_jugador_atacando=[]
-sprites_animacion_jugador_atacando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL0.png"))
-sprites_animacion_jugador_atacando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL1.png"))
-sprites_animacion_jugador_atacando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL2.png"))
-sprites_animacion_jugador_atacando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL3.png"))
+sprites_animacion_jugador_atacando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL0.png"))
+sprites_animacion_jugador_atacando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL1.png"))
+sprites_animacion_jugador_atacando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL2.png"))
+sprites_animacion_jugador_atacando.append(pygame.image.load(/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_ATAQUE_FINAL/PLAYER_ATAQUE_FINAL3.png"))
 
 animacion_jugador_atacando=animacion_personaje("animacion_jugador_atacando",sprites_animacion_jugador_atacando)
 
 sprites_animacion_jugador_saltando=[]
-sprites_animacion_jugador_saltando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_SALTO_FINAL/PLAYER_SALTO_FINAL0.png"))
-sprites_animacion_jugador_saltando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_SALTO_FINAL/PLAYER_SALTO_FINAL1.png"))
+sprites_animacion_jugador_saltando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_SALTO_FINAL/PLAYER_SALTO_FINAL0.png"))
+sprites_animacion_jugador_saltando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_SALTO_FINAL/PLAYER_SALTO_FINAL1.png"))
 
 animacion_jugador_saltando=animacion_personaje("animacion_jugador_saltando",sprites_animacion_jugador_saltando)
 
 
 sprites_animacion_jugador_caminando=[]
-sprites_animacion_jugador_caminando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_MOV_FINAL/PLAYER_MOV_FINAL0.png"))
-sprites_animacion_jugador_caminando.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_MOV_FINAL/PLAYER_MOV_FINAL1.png"))
+sprites_animacion_jugador_caminando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_MOV_FINAL/PLAYER_MOV_FINAL0.png"))
+sprites_animacion_jugador_caminando.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_MOV_FINAL/PLAYER_MOV_FINAL1.png"))
 
 animacion_jugador_caminando=animacion_personaje("animacion_jugador_caminando",sprites_animacion_jugador_caminando)
 
 sprites_animacion_jugador_quieto=[]
-sprites_animacion_jugador_quieto.append(pygame.image.load("C:/Users/Veertex/Desktop/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_STATIC_FINAL/PLAYER_STATIC_FINAL0.png"))
+sprites_animacion_jugador_quieto.append(pygame.image.load("/TEST_GAME_BETA/PLAYER_SPRITES/PLAYER_STATIC_FINAL/PLAYER_STATIC_FINAL0.png"))
 
 animacion_jugador_quieto=animacion_personaje("animacion_jugador_quieto",sprites_animacion_jugador_quieto)
 
